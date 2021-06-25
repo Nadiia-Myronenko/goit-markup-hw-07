@@ -31,9 +31,7 @@
 }
 .projects-card__title {
   margin-bottom: 4px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
+  @include font(bold, 18px, 2);
   letter-spacing: 0.06em;
   color: $hedding-color;
 }
